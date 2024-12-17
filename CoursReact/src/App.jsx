@@ -1,6 +1,7 @@
 import './App.css'
 import Footer from './composants/containers/Footer'
-import User from './composants/User';
+import User from './composants/User'
+import Player from './composants/Player';
 
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
       <div>
         <h1>Informations</h1>
         <User />
+      </div>
+      <div className="App">
+      <Player />
       </div>
       <Footer />
     </>
