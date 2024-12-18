@@ -5,19 +5,17 @@ import Player from './composants/Player';
 
 
 function App() {
-
   return (
-    <>
-      <h1>Test</h1>
-      <div>
-        <h1>Informations</h1>
-        <User />
-      </div>
-      <div className="App">
-      <Player />
-      </div>
-      <Footer />
-    </>
-  )
+    <div>
+      <h1>Informations</h1>
+      <User 
+        prenom="Ryan" 
+        nom="SIFI" 
+        age={22} 
+        hobbies={['Lecture', 'Programmation', 'Voyage']} 
+      />
+    </div>
+  );
 }
-export default App
+
+export default App;
