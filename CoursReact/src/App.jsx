@@ -14,6 +14,10 @@ function App() {
         age={22} 
         hobbies={['Lecture', 'Programmation', 'Voyage']} 
       />
+      <div className="App">
+      <Player />
+      </div>
+      <Footer />
     </div>
   );
 }
