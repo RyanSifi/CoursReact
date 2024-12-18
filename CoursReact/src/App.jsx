@@ -1,7 +1,8 @@
 import './App.css'
 import Footer from './composants/containers/Footer'
 import User from './composants/User'
-import Player from './composants/Player';
+import Player from './composants/Player'
+import Routine from './composants/Routine';
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       />
       <div className="App">
       <Player />
+      <h1>Routine</h1>
+      <Routine />
       </div>
       <Footer />
     </div>
